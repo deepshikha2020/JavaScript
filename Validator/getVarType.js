@@ -1,3 +1,8 @@
+/**
+ * To check the type of any variable
+ * @param { any } data 
+ * @returns string
+ */
 const getVarType = (data) => {
   const varType = typeof data;
   if (varType === "object") {
